@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/poupanca_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valor_inicial"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/valor_em_r_ex_1700_00"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aplica_o_mensal"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/ex_1000_00"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tempo_de_aplica_o"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/em_meses"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/taxa"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/ex_0_02"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:background="#1E6EE4"/>
+
+</LinearLayout>

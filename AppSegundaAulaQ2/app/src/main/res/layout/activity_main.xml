@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+    <TableRow android:background="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10px">
+
+        <ImageButton
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:layout_marginBottom="15px"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/onibus" />
+
+        <ImageButton
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:layout_marginBottom="15px"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/aviao" />
+
+        <ImageButton
+            android:background="#000000"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:layout_marginBottom="15px"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bairros" />
+    </TableRow>
+
+    <TableRow android:background="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <ImageButton
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/turismo"
+            android:layout_marginTop="15px"
+            android:layout_marginBottom="15px"/>
+
+        <ImageButton
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/telefone"
+            android:layout_marginTop="15px"
+            android:layout_marginBottom="15px"/>
+
+        <ImageButton
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/taxi"
+            android:layout_marginTop="15px"
+            android:layout_marginBottom="15px"/>
+
+    </TableRow>
+
+    <TableRow android:background="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10px">
+
+        <ImageButton
+            android:background="#000000"
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="15px"
+            android:layout_marginBottom="20px"
+            app:srcCompat="@drawable/cultura" />
+
+        <ImageButton
+            android:background="#000000"
+            android:id="@+id/imageView3"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="15px"
+            android:layout_marginBottom="20px"
+            app:srcCompat="@drawable/feriados" />
+
+        <ImageButton
+            android:background="#000000"
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15px"
+            android:layout_marginBottom="20px"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sac" />
+    </TableRow>
+
+</TableLayout>

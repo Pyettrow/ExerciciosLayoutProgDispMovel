@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FF6600">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:text="Consumo total R$:"
+            android:textSize="50px"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Couvert artístico R$:"
+            android:layout_marginRight="45dp"
+            android:textSize="50px"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dividir conta por:"
+            android:layout_marginRight="75dp"
+            android:textSize="50px"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+    
+    <Button
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:text="Calcular conta final"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taxa do serviço(10%) R$"
+            android:layout_marginRight="10dp"
+            android:textSize="50px"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conta total R$:"
+            android:layout_marginRight="92dp"
+            android:textSize="50px"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor por pessoa R$:"
+            android:layout_marginRight="42dp"
+            android:textSize="50px"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/logo_balaio"/>
+
+</LinearLayout>

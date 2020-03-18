@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="valor_inicial">" Initial value:"</string>
+    <string name="valor_em_r_ex_1700_00">Amount in $. EX: 1700.00</string>
+    <string name="aplica_o_mensal">" Monthly Application"</string>
+    <string name="ex_1000_00">EX: 1000.00</string>
+    <string name="tempo_de_aplica_o">Application time:</string>
+    <string name="em_meses">In Months</string>
+    <string name="taxa">Rate</string>
+    <string name="ex_0_02">EX 0.02</string>
+    <string name="calcular">Calculate</string>
+    <string name="app_name">Savings</string>
+</resources>
